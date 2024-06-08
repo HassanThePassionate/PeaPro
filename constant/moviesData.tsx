@@ -1,55 +1,55 @@
 const Data = [
   {
-    img: "https://647bc185.szrtcpa.com/view/photo/s_ratio_poster/public/p2887388117.webp",
+    img: "https://m.media-amazon.com/images/M/MV5BNmQzOWZhOTMtZTcxNC00MTdkLWEwYmUtOWVmOTFhNTdkNjRkXkEyXkFqcGdeQXVyODk2NDQ3MTA@._V1_.jpg",
     title: "Covenant",
   },
   {
-    img: "https://647bc185.szrtcpa.com/2022/12/06/472e2da15d853.jpg",
-    title: "Keep you safe",
+    img: "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_QL75_UX140_CR0,1,140,207_.jpg",
+    title: "Shaw Shank",
   },
   {
-    img: "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2891516799.jpg",
+    img: "https://m.media-amazon.com/images/M/MV5BNjA5NDE5YmUtNzg0NC00N2RjLWE2NzctMTQ3Y2ZmMDUxZTZlXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_.jpg",
     title: "Waves",
   },
   {
-    img: "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2882413156.jpg",
+    img: "https://m.media-amazon.com/images/M/MV5BMTQ3OTAzNjk1M15BMl5BanBnXkFtZTcwMjc2MjQ5Ng@@._V1_FMjpg_UX1000_.jpg",
     title: "Dim lights",
   },
   {
-    img: "https://647bc185.szrtcpa.com/view/photo/s_ratio_poster/public/p2888874787.webp",
-    title: "Dungeons & Dragons: Rogue Glory",
+    img: "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+    title: "Gladiator",
   },
   {
-    img: "https://647bc185.szrtcpa.com/view/photo/s_ratio_poster/public/p2885985177.webp",
+    img: "https://m.media-amazon.com/images/M/MV5BMmZiN2VmMjktZDE5OC00ZWRmLWFlMmEtYWViMTY4NjM3ZmNkXkEyXkFqcGdeQXVyMTI2MTc2ODM3._V1_.jpg",
     title: "Evil Dead Rising",
   },
   {
-    img: "https://647bc185.szrtcpa.com/view/photo/s_ratio_poster/public/p2887388117.webp",
+    img: "https://m.media-amazon.com/images/M/MV5BNmQzOWZhOTMtZTcxNC00MTdkLWEwYmUtOWVmOTFhNTdkNjRkXkEyXkFqcGdeQXVyODk2NDQ3MTA@._V1_.jpg",
     title: "Covenant",
   },
   {
-    img: "https://647bc185.szrtcpa.com/view/photo/s_ratio_poster/public/p2888696986.webp",
-    title: "Hachikō",
+    img: "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
+    title: "TiTanic",
   },
   {
-    img: "https://647bc185.szrtcpa.com/view/photo/s_ratio_poster/public/p2888131086.jpg",
-    title: "Air cushion legend",
+    img: "https://m.media-amazon.com/images/M/MV5BMWQyYmEzNjQtYzFiYS00ZTk1LWIxZTYtNDlhYzQwZmVkMmZjXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_.jpg",
+    title: "Furiosa",
   },
   {
-    img: "https://647bc185.szrtcpa.com/view/photo/s_ratio_poster/public/p2886073492.jpg",
-    title: "Rainfield",
+    img: "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_QL75_UY207_CR3,0,140,207_.jpg",
+    title: "The God Father",
   },
   {
-    img: "https://647bc185.szrtcpa.com/view/photo/s_ratio_poster/public/p2890599819.jpg",
-    title: "My last year with my mom",
+    img: "https://m.media-amazon.com/images/M/MV5BMGYyYWIwYjItODMxMS00MzIwLTg0MGMtNjUwOGFlZmMyMDk5XkEyXkFqcGdeQXVyMTY5OTQzNzY@._V1_.jpg",
+    title: "Being my mom",
   },
   {
-    img: "https://647bc185.szrtcpa.com/view/photo/s_ratio_poster/public/p2888584528.jpg",
-    title: "Super Mario Bros. The Movie",
+    img: "https://m.media-amazon.com/images/M/MV5BZGVmZTUyZDAtYjg0MC00NmE5LWE2OTAtM2FjNGI1NWUyMzE0XkEyXkFqcGdeQXVyNjMwMjk0MTQ@._V1_.jpg",
+    title: "Mario Bros.",
   },
   {
-    img: "https://647bc185.szrtcpa.com/view/photo/s_ratio_poster/public/p2885470890.jpg",
-    title: "Bad thoughts remover",
+    img: "https://m.media-amazon.com/images/M/MV5BMjA4NDI0MTIxNF5BMl5BanBnXkFtZTYwNTM0MzY2._V1_FMjpg_UX1000_.jpg",
+    title: "The Presitage",
   },
   {
     img: "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2891516799.jpg",
