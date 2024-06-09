@@ -17,16 +17,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en'>
-      <body className={`${inter.className} bg-[#F5F5F5] dark:bg-[#111]`}>
+    <html lang="en">
+      <body className={`${inter.className} bg-[#F5F5F5] dark:bg-[#2D2F3C]`}>
         <ThemeProvider
-          attribute='class'
-          defaultTheme='system'
+          attribute="class"
+          defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >
           <Navbar />
-          <div className='max-w-[1240px] w-full mx-auto px-4'>{children}</div>
+          <div className="max-w-[1240px] w-full mx-auto px-4">{children}</div>
         </ThemeProvider>
       </body>
     </html>

@@ -6,13 +6,13 @@ import Submit from "./Submit";
 
 const Navbar = () => {
   return (
-    <div className='flex items-center justify-between px-8 py-4 bg-white dark:bg-[#222]'>
-      <div className='flex items-center gap-12'>
+    <div className="flex items-center justify-between px-8 py-4 bg-white dark:bg-[#0A0E1A]">
+      <div className="flex items-center gap-[40px]">
         <Logo />
         <Search />
         <MenuList />
       </div>
-      <div className='flex items-center gap-5'>
+      <div className="flex items-center gap-5">
         <ModeToggle />
         <Submit />
       </div>

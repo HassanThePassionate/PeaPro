@@ -7,13 +7,13 @@ interface HeadingProps {
 }
 const Heading = ({ title, icon: Icon }: HeadingProps) => {
   return (
-    <div className='mb-6 mt-10'>
-      <div className='flex items-center gap-8'>
-        <div className='flex items-center gap-2'>
+    <div className="mb-6 mt-10">
+      <div className="flex items-center gap-8">
+        <div className="flex items-center gap-3">
           <Icon size={24} />
-          <h3 className='text-[20px]'>{title}</h3>
+          <h3 className="text-[20px]">{title}</h3>
         </div>
-        <Badge className='flex items-center gap-1'>
+        <Badge className="flex items-center bg-white text-black hover:bg-white cursor-pointer gap-1">
           <span>More</span>
           <ChevronRight size={16} />
         </Badge>
