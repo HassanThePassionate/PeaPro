@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Badge } from "./ui/badge";
 import { GoStarFill } from "react-icons/go";
+import Link from "next/link";
 interface MovieCardProps {
   title: string;
   img: string;
@@ -8,7 +9,7 @@ interface MovieCardProps {
 }
 const MovieCard = ({ title, img, size }: MovieCardProps) => {
   return (
-    <div>
+    <Link href='/detail'>
       <div className='relative cursor-pointer hover:scale-110 transition duration-300  '>
         <Image
           src={img}
@@ -25,7 +26,7 @@ const MovieCard = ({ title, img, size }: MovieCardProps) => {
           </span>
         </Badge>
       </div>
-    </div>
+    </Link>
   );
 };
 
