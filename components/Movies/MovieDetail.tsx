@@ -8,8 +8,8 @@ import { GoStarFill } from "react-icons/go";
 import { BiHomeHeart } from "react-icons/bi";
 const MovieDeatil = () => {
   return (
-    <div>
-      <div className='flex sm:gap-[64px] gap-[32px]'>
+    <div className='text-white'>
+      <div className='flex sm:gap-[64px] gap-[32px] '>
         <div className='relative'>
           <Image
             src='https://m.media-amazon.com/images/M/MV5BMmZiN2VmMjktZDE5OC00ZWRmLWFlMmEtYWViMTY4NjM3ZmNkXkEyXkFqcGdeQXVyMTI2MTc2ODM3._V1_.jpg'
@@ -27,7 +27,7 @@ const MovieDeatil = () => {
         </div>
 
         <div>
-          <h2 className='sm:text-[32px] text-[24px] leading-10 mb-6'>
+          <h2 className='sm:text-[32px] text-[24px]  leading-10 mb-6'>
             Evil Dead Rising
           </h2>
           <ul className='flex flex-col gap-4 text-sm'>
@@ -67,18 +67,18 @@ const MovieDeatil = () => {
         <MovieTags text='Secret Love' />
         <MovieTags text='Forbidden Love' />
       </div>
-      <div className='mt-6 flex items-center gap-4 flex-wrap mb-1'>
-        <Button className='flex gap-3 border-dotted border-2 border-[#999] hover:bg-transparent hover:border-black bg-transparent text-black dark:text-white'>
+      <div className='mt-6 flex items-center gap-4 flex-wrap mb-1 text-white'>
+        <Button className='flex gap-3 border-dotted border-2 text-white border-[#999] hover:bg-transparent hover:border-black bg-transparent '>
           <PlayCircle />
           Watch Trailer
         </Button>
-        <Button className='flex gap-3 border-dotted border-2 border-[#999] hover:bg-transparent hover:border-black bg-transparent text-black dark:text-white'>
+        <Button className='flex gap-3 border-dotted border-2 text-white border-[#999] hover:bg-transparent hover:border-black bg-transparent  '>
           <BiSolidMovie size={24} />
           Where to Watch
         </Button>
         <Button
           size='icon'
-          className='flex gap-3 border-dotted border-2 border-[#999] hover:bg-transparent hover:border-black bg-transparent text-black dark:text-white'
+          className='flex gap-3 border-dotted border-2 border-[#999] hover:bg-transparent hover:border-black bg-transparent text-white'
         >
           <Bookmark />
         </Button>

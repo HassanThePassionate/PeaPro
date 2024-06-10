@@ -5,7 +5,7 @@ import { BiMoviePlay } from "react-icons/bi";
 import { BiCameraMovie } from "react-icons/bi";
 export default function Home() {
   return (
-    <div className='mt-[50px]'>
+    <div className='mt-[50px] max-w-[1240px] w-full mx-auto px-4'>
       <Movies />
       <div>
         <Heading title='TV Series' icon={BiMoviePlay} />
