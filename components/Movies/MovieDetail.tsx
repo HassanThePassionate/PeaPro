@@ -18,7 +18,7 @@ const MovieDeatil = () => {
             height={214}
             className='rounded-sm'
           />
-          <Badge className='bg-[#45B164] hidden sm:block hover:bg-[#45B164] rounded-[2px] text-center absolute bottom-7 right-3'>
+          <Badge className='bg-[#45B164] hidden sm:block hover:bg-[#45B164] rounded-[2px] text-center absolute bottom-2 right-3'>
             <span className='flex items-center gap-1  sm:text-[12px]'>
               <GoStarFill size={14} color='yellow' />
               7.1
