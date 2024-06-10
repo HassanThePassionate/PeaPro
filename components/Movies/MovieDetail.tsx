@@ -3,63 +3,115 @@ import MovieTags from "./MovieTags";
 import { Button } from "../ui/button";
 import { Bookmark, PlayCircle } from "lucide-react";
 import { BiSolidMovie } from "react-icons/bi";
-import { Badge } from "../ui/badge";
 import { GoStarFill } from "react-icons/go";
 import { BiHomeHeart } from "react-icons/bi";
+import Link from "next/link";
 const MovieDeatil = () => {
   return (
     <div className='text-white'>
-      <div className='flex sm:gap-[64px] gap-[32px] '>
+      <div className='flex gap-5 items-center '>
         <div className='relative'>
           <Image
             src='https://m.media-amazon.com/images/M/MV5BMmZiN2VmMjktZDE5OC00ZWRmLWFlMmEtYWViMTY4NjM3ZmNkXkEyXkFqcGdeQXVyMTI2MTc2ODM3._V1_.jpg'
             alt='img'
-            width={140}
-            height={214}
-            className='rounded-sm'
+            width={84}
+            height={129}
+            className='border border-[#e6e6e6]'
           />
-          <Badge className='bg-[#45B164] hidden sm:block hover:bg-[#45B164] rounded-[2px] text-center absolute bottom-2 right-3'>
-            <span className='flex items-center gap-1  sm:text-[12px]'>
-              <GoStarFill size={14} color='yellow' />
-              7.1
-            </span>
-          </Badge>
         </div>
 
         <div>
-          <h2 className='sm:text-[32px] text-[24px]  leading-10 mb-6'>
-            Evil Dead Rising
-          </h2>
-          <ul className='flex flex-col gap-4 text-sm'>
-            <li>Reviews: 167K</li>
-            <li>Tomatometer: 92%</li>
-            <li>Rating: PG</li>
-            <li>Duration: 99 Minutes</li>
+          <div className='text-[12px] text-[#f5f5f5]'>MOVIE</div>
+          <Link
+            href='#'
+            className=' text-[20px] leading-[30px] hover:border-dotted hover:border-[#6eda78] hover:border-b font-bold hover:text-[#6eda78] '
+          >
+            In the Mood for Love (2000)
+          </Link>
+          <ul className='flex items-center mt-4'>
+            <li className='flex flex-col items-center pr-5 before:h-[24px] before:w-[1px] before:absolute before:top-1/2 before:-translate-y-1/2 relative before:left-0 before:bg-[#e8e8e8] first-of-type:before:content-none before:opacity-0 md:before:opacity-100  '>
+              <div className='flex items-center gap-1 text-sm '>
+                8.1
+                <GoStarFill size={14} />
+              </div>
+              <div className='text-[#969696] text-[12px]'>167K reviews</div>
+            </li>
+
+            <li className='flex flex-col items-center px-5 before:h-[24px] before:w-[1px] before:absolute before:top-1/2 before:-translate-y-1/2 relative before:left-0 before:bg-[#e8e8e8] first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
+              <div className='flex items-center gap-1  text-sm'>
+                <Image
+                  src='https://similarwatch.com/images/tomato.svg'
+                  alt='img'
+                  width={16}
+                  height={16}
+                />
+                96%
+              </div>
+              <div className='text-[#969696] text-[12px]'>Tomatometer</div>
+            </li>
+            <li className='flex flex-col items-center px-5 before:h-[24px] before:w-[1px] before:absolute before:top-1/2 before:-translate-y-1/2 relative before:left-0 before:bg-[#e8e8e8] first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
+              <div className='flex items-center gap-1 text-sm'>
+                <span>PG</span>
+              </div>
+              <div className='text-[#969696] text-[12px]'>Rating</div>
+            </li>
+            <li className='flex flex-col items-center px-5 before:h-[24px] before:w-[1px] before:absolute before:top-1/2 before:-translate-y-1/2 relative before:left-0 before:bg-[#e8e8e8] first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
+              <div className='flex items-center gap-1 '>
+                <BiHomeHeart size={24} />
+              </div>
+              <div className='text-[#969696] text-[12px]'>Chinese</div>
+            </li>
+            <li className='flex flex-col items-center pl-5 before:h-[24px] before:w-[1px] before:absolute before:top-1/2 before:-translate-y-1/2 relative before:left-0 before:bg-[#e8e8e8] first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
+              <div className='flex items-center gap-1 text-sm '>99Minutes</div>
+              <div className='text-[#969696] text-[12px]'>Duration</div>
+            </li>
           </ul>
         </div>
       </div>
-      <p className='mt-4 mb-2'>
+      <p className=' mt-4 mb-2'>
         Two couples move into the same building on the same day. When they
         discover their spouses are having an affair, the two neighbors become
         friends and try to replicate the infidelity of their partners. However,
         they end up falling in love for real and decide to break up and go their
         separate ways. In the end, both couples have split up and are alone.
       </p>
-      <div className='flex gap-4 text-sm text-[#666] cursor-pointer'>
-        <h4>Romance Drama</h4>
+      <div className='flex gap-4 text-sm text-[#8d8d8d] cursor-pointer'>
+        <Link href='#' className='border-b hover:text-white'>
+          Romance
+        </Link>
         <ul className=' list-disc  ml-3'>
-          <li>Drama</li>
+          <li className='border-b'>
+            <Link href='#' className='hover:text-white '>
+              Drama
+            </Link>
+          </li>
         </ul>
       </div>
       <ul className='mt-4 flex flex-col gap-2 text-sm'>
         <li>
-          <strong>Directors:</strong> Wong Kar-wai
+          <Link href='#'>
+            <strong>Directors</strong>
+            <span className='hover:text-[#8d8d8d] pl-2'> Wong Kar-wai</span>
+          </Link>
         </li>
-        <li>
-          <strong>Cast:</strong> Maggie Cheung Man-Yuk Tony Leung Chiu-wai
+        <li className='flex '>
+          <strong>Cast </strong>
+          <Link
+            href='#'
+            className='hover:text-[#8d8d8d] flex items-center gap-2 text-sm whitespace-nowrap text-text-default after:w-1 after:bg-[#999] after:rounded-full after:inline-block after:aspect-square last-of-type:after:content-none hover:text-text-dark pl-2'
+          >
+            Maggie Cheung Man-Yuk
+          </Link>
+
+          <Link
+            href='#'
+            className='hover:text-[#8d8d8d] flex items-center gap-2 text-sm whitespace-nowrap text-text-default after:w-1 after:bg-[#999] after:rounded-full after:inline-block after:aspect-square last-of-type:after:content-none pl-2 '
+          >
+            Tony Leung Chiu-wai
+          </Link>
         </li>
       </ul>
-      <div className='flex gap-3 flex-wrap mt-4'>
+      <div className='flex gap-[6px] flex-wrap mt-5'>
         <MovieTags text='Neightbor' />
         <MovieTags text='Romantic Drama' />
         <MovieTags text='Neighbor Neighbor Relationship' />
@@ -67,21 +119,27 @@ const MovieDeatil = () => {
         <MovieTags text='Secret Love' />
         <MovieTags text='Forbidden Love' />
       </div>
-      <div className='mt-6 flex items-center gap-4 flex-wrap mb-1 text-white'>
-        <Button className='flex gap-3 border-dotted border-2 text-white border-[#999] hover:bg-transparent hover:border-black bg-transparent '>
-          <PlayCircle />
-          Watch Trailer
-        </Button>
-        <Button className='flex gap-3 border-dotted border-2 text-white border-[#999] hover:bg-transparent hover:border-black bg-transparent  '>
-          <BiSolidMovie size={24} />
-          Where to Watch
-        </Button>
-        <Button
-          size='icon'
-          className='flex gap-3 border-dotted border-2 border-[#999] hover:bg-transparent hover:border-black bg-transparent text-white'
+      <div className='mt-6 flex items-center gap-5 flex-wrap mb-1 text-white'>
+        <Link
+          href='#'
+          className=' gap-[10px] min-h-[42px] flex items-center justify-center border-dotted border-2 pl-[6px] pr-[10px] border-[#969696] text-[#969696] rounded-[10px] text-[15px] font-bold hover:border-white hover:text-white  '
         >
-          <Bookmark />
-        </Button>
+          <PlayCircle size={20} />
+          Watch Trailer
+        </Link>
+        <Link
+          href='#'
+          className=' gap-[10px] min-h-[42px] flex items-center justify-center border-dotted border-2 pl-[6px] pr-[10px] border-[#969696] text-[#969696] rounded-[10px] text-[15px] font-bold hover:border-white hover:text-white '
+        >
+          <BiSolidMovie size={20} />
+          Where to Watch
+        </Link>
+        <Link
+          href='#'
+          className=' gap-[10px] min-h-[42px] flex items-center justify-center border-dotted border-2 p-[6px] border-[#969696] text-[#969696] rounded-[10px] text-[15px] font-bold hover:border-white hover:text-white '
+        >
+          <Bookmark size={24} />
+        </Link>
       </div>
     </div>
   );
