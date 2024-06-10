@@ -5,6 +5,7 @@ import { Bookmark, PlayCircle } from "lucide-react";
 import { BiSolidMovie } from "react-icons/bi";
 import { Badge } from "../ui/badge";
 import { GoStarFill } from "react-icons/go";
+import { BiHomeHeart } from "react-icons/bi";
 const MovieDeatil = () => {
   return (
     <div>
@@ -33,7 +34,6 @@ const MovieDeatil = () => {
             <li>Reviews: 167K</li>
             <li>Tomatometer: 92%</li>
             <li>Rating: PG</li>
-            <li>Chinese: Wash White</li>
             <li>Duration: 99 Minutes</li>
           </ul>
         </div>
