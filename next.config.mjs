@@ -10,6 +10,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "img1.doubanio.com",
       },
+      {
+        protocol: "https",
+        hostname: "p1.meituan.net",
+      },
     ],
   },
 };

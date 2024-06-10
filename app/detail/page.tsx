@@ -1,5 +1,6 @@
 import MovieDetail from "@/components/Movies/MovieDetail";
 import MovieNav from "@/components/Movies/MovieNav";
+import MovieTabs from "@/components/Movies/MovieTabs";
 
 import Image from "next/image";
 
@@ -24,6 +25,7 @@ export default function Detail() {
           <MovieDetail />
         </div>
       </div>
+      <MovieTabs />
     </div>
   );
 }
