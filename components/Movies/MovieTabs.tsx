@@ -71,9 +71,9 @@ const MovieTabs = () => {
         Play online
       </h3>
       <div className='grid grid-cols-4 gap-3 mb-4'>
-        {data.map((e) => {
+        {data.map((e,i) => {
           return (
-            <div className='flex items-center justify-between rounded-[12px] hover:shadow-xl transition duration-300 h-[80px] cursor-pointer gap-4 p-4 bg-white'>
+            <div key={i} className='flex items-center justify-between rounded-[12px] hover:shadow-xl transition duration-300 h-[80px] cursor-pointer gap-4 p-4 bg-white'>
               <div className='flex items-center gap-6'>
                 <Image
                   src={e.img}
