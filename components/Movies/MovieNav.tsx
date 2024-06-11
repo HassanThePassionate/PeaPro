@@ -1,6 +1,5 @@
 import { ModeToggle } from "../ModeToggle";
 import Logo from "../navbar/Logo";
-import MobileNav from "../navbar/mobieNav/MobileNav";
 import MenuList from "../navbar/MenuList";
 import Submit from "../navbar/Submit";
 import Search from "../navbar/Search";

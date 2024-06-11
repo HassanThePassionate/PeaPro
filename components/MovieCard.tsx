@@ -16,7 +16,7 @@ const MovieCard = ({ title, img, size }: MovieCardProps) => {
           alt='Movie Image'
           width={120}
           height={size}
-          className='rounded-[8px]  '
+          className='rounded-[8px]'
         />
         <h4 className='mt-1 text-sm'>{title}</h4>
         <Badge className='bg-[#45B164] hover:bg-[#45B164] rounded-[2px] text-center absolute bottom-8 left-2'>

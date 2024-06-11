@@ -29,7 +29,7 @@ export default function Detail() {
       </div>
       <MovieTabs />
       <div className='max-w-[1425px] w-full mx-auto px-4 mt-2'>
-        <Movies read='' padding='pl-10' />
+        <Movies read='' padding=' px-6 md:pl-10' />
       </div>
     </div>
   );

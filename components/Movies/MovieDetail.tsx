@@ -39,7 +39,7 @@ const MovieDetail = () => {
           >
             In the Mood for Love (2000)
           </Link>
-          <ul className='flex items-center mt-4'>
+          <ul className='flex items-center flex-wrap mt-4'>
             <li className='flex flex-col items-center pr-2 md:pr-5 relative md:before:h-[24px] md:before:w-[1px] md:before:absolute md:before:top-1/2 md:before:-translate-y-1/2 md:before:left-0 md:before:bg-[#e8e8e8] md:first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
               <div className='flex items-center gap-1 text-sm'>
                 8.1
@@ -71,7 +71,7 @@ const MovieDetail = () => {
                 Rating
               </div>
             </li>
-            <li className='flex flex-col items-center px-2 md:px-5 relative md:before:h/[24px] md:before:w/[1px] md:before:absolute md:before:top-1/2 md:before:-translate-y-1/2 md:before:left-0 md:before:bg-[#e8e8e8] md:first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
+            <li className='flex flex-col items-center px-2 md:px-5 relative md:before:h-[24px] md:before:w-[1px] md:before:absolute md:before:top-1/2 md:before:-translate-y-1/2 md:before:left-0 md:before:bg-[#e8e8e8] md:first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
               <div className='flex items-center gap-1'>
                 <BiHomeHeart size={24} />
               </div>
@@ -79,7 +79,7 @@ const MovieDetail = () => {
                 Chinese
               </div>
             </li>
-            <li className='flex flex-col items-center pl-2 md:pl-5 relative md:before:h/[24px] md:before:w/[1px] md:before:absolute md:before:top-1/2 md:before:-translate-y-1/2 md:before:left-0 md:before:bg-[#e8e8e8] md:first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
+            <li className='flex flex-col items-center pl-2 md:pl-5 relative md:before:h-[24px] md:before:w-[1px] md:before:absolute md:before:top-1/2 md:before:-translate-y-1/2 md:before:left-0 md:before:bg-[#e8e8e8] md:first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
               <div className='flex items-center gap-1 text-sm'>99 Minutes</div>
               <div className='text-[#969696] text-[12px] hidden md:inline-block'>
                 Duration
