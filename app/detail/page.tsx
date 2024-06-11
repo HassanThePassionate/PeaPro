@@ -2,10 +2,7 @@ import MovieDetail from "@/components/Movies/MovieDetail";
 import MovieNav from "@/components/Movies/MovieNav";
 import MovieTabs from "@/components/Movies/MovieTabs";
 import Movies from "@/components/Movies/Movies";
-import MobileNav from "@/components/navbar/mobieNav/MobileNav";
-
 import Image from "next/image";
-
 export default function Detail() {
   return (
     <div className='relative back'>
