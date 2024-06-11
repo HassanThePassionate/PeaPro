@@ -9,7 +9,9 @@ import MovieMobile from "./MovieMobile";
 const MovieNav = () => {
   return (
     <>
-      <MovieMobile />
+      <div className='xl:hidden'>
+        <MovieMobile />
+      </div>
       <div className=' items-center justify-between px-8 py-4 text-[#999]  hidden xl:flex '>
         <div className='flex items-center gap-[40px]'>
           <Logo />

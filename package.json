@@ -22,6 +22,7 @@
     "react-icons": "^5.2.1",
     "react-readmore-and-readless": "^1.0.3",
     "react-use": "^17.5.0",
+    "readmore-showless": "^2.0.8",
     "swiper": "^11.1.4",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7"

@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 const Submit = () => {
   return (
     <div>
-      <Button>Submit</Button>
+      <Button className=' cursor-pointer'>Submit</Button>
     </div>
   );
 };

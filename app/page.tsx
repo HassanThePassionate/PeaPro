@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <Navbar />
       <div className='mt-[50px] max-w-[1240px] w-full mx-auto px-4'>
-        <Movies read='read' />
+        <Movies read='read' padding='px-6' />
         <div>
           <Heading title='TV Series' icon={BiMoviePlay} read='read' />
           <Movie />
