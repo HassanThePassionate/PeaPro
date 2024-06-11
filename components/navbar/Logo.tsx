@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 const Logo = () => {
   return (
-    <div className='flex items-center gap-1'>
+    <Link href='/' className='flex items-center gap-1'>
       <svg
         width='36'
         height='36'
@@ -22,7 +24,7 @@ const Logo = () => {
       <span className='font-semibold text-normal text-[#999]'>
         pea <span className='text-green-500'>PRO</span>
       </span>
-    </div>
+    </Link>
   );
 };
 
