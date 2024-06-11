@@ -9,21 +9,21 @@ export default function Home() {
     <>
       <Navbar />
       <div className='mt-[50px] max-w-[1240px] w-full mx-auto px-4'>
-        <Movies />
+        <Movies read='read' />
         <div>
-          <Heading title='TV Series' icon={BiMoviePlay} />
+          <Heading title='TV Series' icon={BiMoviePlay} read='read' />
           <Movie />
         </div>
         <div>
-          <Heading title='Netflix' icon={BiCameraMovie} />
+          <Heading title='Netflix' icon={BiCameraMovie} read='read' />
           <Movie />
         </div>
         <div>
-          <Heading title='Classic Online' icon={BiCameraMovie} />
+          <Heading title='Classic Online' icon={BiCameraMovie} read='read' />
           <Movie />
         </div>
         <div className='mb-10'>
-          <Heading title='My Youth' icon={BiCameraMovie} />
+          <Heading title='My Youth' icon={BiCameraMovie} read='read' />
           <Movie />
         </div>
       </div>

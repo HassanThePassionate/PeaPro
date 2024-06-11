@@ -19,7 +19,7 @@ const Logo = () => {
           <path d='M25.0329 5.33373C26.8032 6.31667 28.3478 7.65979 29.567 9.27643C30.7863 10.8931 31.6531 12.7473 32.1115 14.7196L18 18L25.0329 5.33373Z'></path>
         </mask>
       </svg>
-      <span className='font-semibold text-normal'>
+      <span className='font-semibold text-normal text-[#999]'>
         pea <span className='text-green-500'>PRO</span>
       </span>
     </div>

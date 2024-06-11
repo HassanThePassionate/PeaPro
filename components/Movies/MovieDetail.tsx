@@ -1,11 +1,12 @@
+"use client";
 import Image from "next/image";
 import MovieTags from "./MovieTags";
-import { Button } from "../ui/button";
 import { Bookmark, PlayCircle } from "lucide-react";
 import { BiSolidMovie } from "react-icons/bi";
 import { GoStarFill } from "react-icons/go";
 import { BiHomeHeart } from "react-icons/bi";
 import Link from "next/link";
+import { ReadMoreReadLess } from "react-readmore-and-readless";
 const MovieDeatil = () => {
   return (
     <div className='text-white'>
@@ -24,20 +25,22 @@ const MovieDeatil = () => {
           <div className='text-[12px] text-[#f5f5f5]'>MOVIE</div>
           <Link
             href='#'
-            className=' text-[20px] leading-[30px] hover:border-dotted hover:border-[#6eda78] hover:border-b font-bold hover:text-[#6eda78] '
+            className=' text-[18px] md:text-[20px] leading-[30px] hover:border-dotted hover:border-[#6eda78] hover:border-b font-bold hover:text-[#6eda78] '
           >
             In the Mood for Love (2000)
           </Link>
           <ul className='flex items-center mt-4'>
-            <li className='flex flex-col items-center pr-5 before:h-[24px] before:w-[1px] before:absolute before:top-1/2 before:-translate-y-1/2 relative before:left-0 before:bg-[#e8e8e8] first-of-type:before:content-none before:opacity-0 md:before:opacity-100  '>
+            <li className='flex flex-col items-center pr-2 md:pr-5 md:before:h-[24px] md:before:w-[1px] md:before:absolute md:before:top-1/2 md:before:-translate-y-1/2 relative md:before:left-0 md:before:bg-[#e8e8e8] md:first-of-type:before:content-none before:opacity-0 md:before:opacity-100  '>
               <div className='flex items-center gap-1 text-sm '>
                 8.1
                 <GoStarFill size={14} />
               </div>
-              <div className='text-[#969696] text-[12px]'>167K reviews</div>
+              <div className='text-[#969696] text-[12px] hidden md:inline-block'>
+                167K reviews
+              </div>
             </li>
 
-            <li className='flex flex-col items-center px-5 before:h-[24px] before:w-[1px] before:absolute before:top-1/2 before:-translate-y-1/2 relative before:left-0 before:bg-[#e8e8e8] first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
+            <li className='flex flex-col items-center px-2  md:px-5 md:before:h-[24px] md:before:w-[1px] md:before:absolute md:before:top-1/2 md:before:-translate-y-1/2 relative md:before:left-0 md:before:bg-[#e8e8e8] md:first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
               <div className='flex items-center gap-1  text-sm'>
                 <Image
                   src='https://similarwatch.com/images/tomato.svg'
@@ -47,34 +50,52 @@ const MovieDeatil = () => {
                 />
                 96%
               </div>
-              <div className='text-[#969696] text-[12px]'>Tomatometer</div>
+              <div className='text-[#969696] text-[12px] hidden md:inline-block'>
+                Tomatometer
+              </div>
             </li>
-            <li className='flex flex-col items-center px-5 before:h-[24px] before:w-[1px] before:absolute before:top-1/2 before:-translate-y-1/2 relative before:left-0 before:bg-[#e8e8e8] first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
+            <li className='flex flex-col items-center  px-2  md:px-5 md:before:h-[24px] md:before:w-[1px] md:before:absolute md:before:top-1/2 md:before:-translate-y-1/2 relative md:before:left-0 md:before:bg-[#e8e8e8] md:first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
               <div className='flex items-center gap-1 text-sm'>
                 <span>PG</span>
               </div>
-              <div className='text-[#969696] text-[12px]'>Rating</div>
+              <div className='text-[#969696] text-[12px] hidden md:inline-block'>
+                Rating
+              </div>
             </li>
-            <li className='flex flex-col items-center px-5 before:h-[24px] before:w-[1px] before:absolute before:top-1/2 before:-translate-y-1/2 relative before:left-0 before:bg-[#e8e8e8] first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
+            <li className='flex flex-col items-center  px-2  md:px-5 md:before:h-[24px] md:before:w-[1px] md:before:absolute md:before:top-1/2 md:before:-translate-y-1/2 relative md:before:left-0 md:before:bg-[#e8e8e8] md:first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
               <div className='flex items-center gap-1 '>
                 <BiHomeHeart size={24} />
               </div>
-              <div className='text-[#969696] text-[12px]'>Chinese</div>
+              <div className='text-[#969696] text-[12px] hidden md:inline-block'>
+                Chinese
+              </div>
             </li>
-            <li className='flex flex-col items-center pl-5 before:h-[24px] before:w-[1px] before:absolute before:top-1/2 before:-translate-y-1/2 relative before:left-0 before:bg-[#e8e8e8] first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
+            <li className='flex flex-col items-center pl-2 md:pl-5 md:before:h-[24px] md:before:w-[1px] md:before:absolute md:before:top-1/2 md:before:-translate-y-1/2 relative md:before:left-0 md:before:bg-[#e8e8e8] md:first-of-type:before:content-none before:opacity-0 md:before:opacity-100'>
               <div className='flex items-center gap-1 text-sm '>99Minutes</div>
-              <div className='text-[#969696] text-[12px]'>Duration</div>
+              <div className='text-[#969696] text-[12px] hidden md:inline-block'>
+                Duration
+              </div>
             </li>
           </ul>
         </div>
       </div>
-      <p className=' mt-4 mb-2'>
-        Two couples move into the same building on the same day. When they
-        discover their spouses are having an affair, the two neighbors become
-        friends and try to replicate the infidelity of their partners. However,
-        they end up falling in love for real and decide to break up and go their
-        separate ways. In the end, both couples have split up and are alone.
-      </p>
+      <div className='mt-4 mb-2 w-full md:w-[60%]'>
+        <ReadMoreReadLess
+          charLimit={220}
+          text='Two couples move into the same building on the same day. When they discover their spouses are having an affair, the two neighbors become friends and try to replicate the infidelity of their partners. However, they end up falling in love for real and decide to break up and go their separate ways. In the end, both couples have split up and are alone.'
+          readMoreStyle={{
+            color: "#0096FF",
+            textDecoration: "underline",
+            cursor: "pointer",
+          }}
+          readLessStyle={{
+            color: "#0096FF",
+            textDecoration: "underline",
+            cursor: "pointer",
+          }}
+        />
+      </div>
+
       <div className='flex gap-4 text-sm text-[#8d8d8d] cursor-pointer'>
         <Link href='#' className='border-b hover:text-white'>
           Romance

@@ -87,8 +87,8 @@ const MovieTabs: React.FC = () => {
   };
 
   return (
-    <div className='mt-[30px] max-w-[1240px] w-full mx-auto px-4'>
-      <div className='flex items-center gap-2 mb-4'>
+    <div className='mt-[30px] max-w-[1425px] w-full mx-auto px-4'>
+      <div className='flex items-center gap-2 mb-4 flex-wrap'>
         {Object.keys(seasonsData).map((season, index) => (
           <MovieTags
             key={index}
@@ -98,7 +98,7 @@ const MovieTabs: React.FC = () => {
           />
         ))}
       </div>
-      <div className='grid grid-cols-4 gap-3 mb-4'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 mb-4'>
         {data.map((e, i) => (
           <Link
             href='#'

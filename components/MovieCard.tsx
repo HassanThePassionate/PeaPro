@@ -19,7 +19,7 @@ const MovieCard = ({ title, img, size }: MovieCardProps) => {
           className='rounded-[8px]  '
         />
         <h4 className='mt-1 text-sm'>{title}</h4>
-        <Badge className='bg-[#45B164] hover:bg-[#45B164] rounded-[2px] text-center absolute bottom-9 left-2'>
+        <Badge className='bg-[#45B164] hover:bg-[#45B164] rounded-[2px] text-center absolute bottom-8 left-2'>
           <span className='flex items-center gap-1 sm:text-[12px]'>
             <GoStarFill size={14} color='yellow' />
             7.1
