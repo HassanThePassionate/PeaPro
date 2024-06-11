@@ -149,7 +149,7 @@ const MovieDetail = () => {
           </Link>
         </li>
       </ul>
-      <div className='flex gap-[6px] flex-wrap mt-5'>
+      <div className='flex gap-[8px] sm:gap-[6px] flex-wrap mt-5'>
         <MovieTags text='Neighbor' />
         <MovieTags text='Romantic Drama' />
         <MovieTags text='Neighbor Neighbor Relationship' />
