@@ -22,6 +22,7 @@ const data = [
       </svg>
     ),
     name: "Home",
+    link: "/",
   },
   {
     icon: (
@@ -46,6 +47,7 @@ const data = [
       </svg>
     ),
     name: "Movie",
+    link: "#",
   },
   {
     icon: (
@@ -70,6 +72,7 @@ const data = [
       </svg>
     ),
     name: "Show",
+    link: "#",
   },
   {
     icon: (
@@ -94,6 +97,7 @@ const data = [
       </svg>
     ),
     name: "Documentery",
+    link: "#",
   },
 ];
 export default data;

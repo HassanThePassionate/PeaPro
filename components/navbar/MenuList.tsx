@@ -6,7 +6,10 @@ const MenuList = () => {
       <ul className='flex items-center gap-8'>
         {data.map((item, index) => (
           <li key={index}>
-            <Link href='#' className='flex items-center gap-2  hover:underline'>
+            <Link
+              href={item.link}
+              className='flex items-center gap-2 hover:underline'
+            >
               {item.icon}
               <span>{item.name}</span>
             </Link>
