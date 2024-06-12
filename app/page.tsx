@@ -1,7 +1,9 @@
+"use client";
 import Heading from "@/components/Heading";
 import Movie from "@/components/Movie";
 import Movies from "@/components/Movies/Movies";
 import Navbar from "@/components/navbar/Navbar";
+import { useState } from "react";
 import { BiMoviePlay } from "react-icons/bi";
 import { BiCameraMovie } from "react-icons/bi";
 export default function Home() {
