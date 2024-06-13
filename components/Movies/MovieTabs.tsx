@@ -24,8 +24,6 @@ const seasonsData: SeasonsData = {
       title: "Episode 2",
       img: "https://p1.meituan.net/dpplatform/300fbce8169b2690f867bd9cdbf0e25650508.png",
     },
-  ],
-  season2: [
     {
       title: "Episode 3",
       img: "https://p1.meituan.net/dpplatform/8482efd8906a49120eeccb26ff73ad0a10645.png",
@@ -35,7 +33,33 @@ const seasonsData: SeasonsData = {
       img: "https://p1.meituan.net/dpplatform/300fbce8169b2690f867bd9cdbf0e25650508.png",
     },
   ],
+  season2: [
+    {
+      title: "Episode 1",
+      img: "https://p1.meituan.net/dpplatform/8482efd8906a49120eeccb26ff73ad0a10645.png",
+    },
+    {
+      title: "Episode 2",
+      img: "https://p1.meituan.net/dpplatform/300fbce8169b2690f867bd9cdbf0e25650508.png",
+    },
+  ],
   season3: [
+    {
+      title: "Episode 1",
+      img: "https://p1.meituan.net/dpplatform/8482efd8906a49120eeccb26ff73ad0a10645.png",
+    },
+    {
+      title: "Episode 2",
+      img: "https://p1.meituan.net/dpplatform/300fbce8169b2690f867bd9cdbf0e25650508.png",
+    },
+    {
+      title: "Episode 3",
+      img: "https://p1.meituan.net/dpplatform/8482efd8906a49120eeccb26ff73ad0a10645.png",
+    },
+    {
+      title: "Episode 4",
+      img: "https://p1.meituan.net/dpplatform/300fbce8169b2690f867bd9cdbf0e25650508.png",
+    },
     {
       title: "Episode 5",
       img: "https://p1.meituan.net/dpplatform/8482efd8906a49120eeccb26ff73ad0a10645.png",
@@ -47,32 +71,44 @@ const seasonsData: SeasonsData = {
   ],
   season4: [
     {
-      title: "Episode 7",
+      title: "Episode 1",
       img: "https://p1.meituan.net/dpplatform/8482efd8906a49120eeccb26ff73ad0a10645.png",
     },
     {
-      title: "Episode 8",
+      title: "Episode 2",
+      img: "https://p1.meituan.net/dpplatform/300fbce8169b2690f867bd9cdbf0e25650508.png",
+    },
+    {
+      title: "Episode 3",
+      img: "https://p1.meituan.net/dpplatform/8482efd8906a49120eeccb26ff73ad0a10645.png",
+    },
+    {
+      title: "Episode 4",
+      img: "https://p1.meituan.net/dpplatform/300fbce8169b2690f867bd9cdbf0e25650508.png",
+    },
+    {
+      title: "Episode 5",
       img: "https://p1.meituan.net/dpplatform/300fbce8169b2690f867bd9cdbf0e25650508.png",
     },
   ],
   season5: [
     {
-      title: "Episode 9",
+      title: "Episode 1",
       img: "https://p1.meituan.net/dpplatform/8482efd8906a49120eeccb26ff73ad0a10645.png",
     },
     {
-      title: "Episode 10",
+      title: "Episode 2",
       img: "https://p1.meituan.net/dpplatform/300fbce8169b2690f867bd9cdbf0e25650508.png",
+    },
+    {
+      title: "Episode 3",
+      img: "https://p1.meituan.net/dpplatform/8482efd8906a49120eeccb26ff73ad0a10645.png",
     },
   ],
   season6: [
     {
-      title: "Episode 11",
+      title: "Episode 1",
       img: "https://p1.meituan.net/dpplatform/8482efd8906a49120eeccb26ff73ad0a10645.png",
-    },
-    {
-      title: "Episode 12",
-      img: "https://p1.meituan.net/dpplatform/300fbce8169b2690f867bd9cdbf0e25650508.png",
     },
   ],
 };
